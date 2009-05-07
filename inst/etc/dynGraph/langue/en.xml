@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<dyn>
+	<idlangue>en</idlangue>
+	<!-- positions des adjectifs par rapport au nom -->
+	<adjectifs>avant</adjectifs>
+	<menu>
+		<Mfichier>File</Mfichier>
+		<MfichierContenu>
+			<Mouvrir>Open...</Mouvrir>
+			<Mfermer>Close</Mfermer>
+			<Menregistrer>Save...</Menregistrer>
+			<Mexporter...>Export...</Mexporter...>
+			<Mlang>Language</Mlang>
+			<Merror>Console</Merror>
+			<Mquitter>Exit</Mquitter>
+		</MfichierContenu>
+		<Mgraphe>Graph</Mgraphe>
+		<MconfigContenu>
+			<Maxe>Modify axes...</Maxe>
+			<MtypeID>Select</MtypeID>
+			<MtypeGR>Modify the type of graph</MtypeGR>
+			<MtypeGRContenu>
+				<MtypeGRGr>Groups graph</MtypeGRGr>
+				<MtypeGRInd>Individuals graph</MtypeGRInd>
+				<MtypeGRVar>Variables graph</MtypeGRVar>
+				<MtypeGRAxesPart>Partial axes graph</MtypeGRAxesPart>
+				<MtypeGRAxesDataframe>Dataframe</MtypeGRAxesDataframe>								
+			</MtypeGRContenu>
+			<Mlegende>Show legend</Mlegende>			
+			<Millus>Show supplementary data</Millus>
+			<Mmod>Show modalities</Mmod>
+			<MmodContenu>
+				<MmodToutes>all</MmodToutes>
+				<MmodAucune>none</MmodAucune>
+			</MmodContenu>
+			<Mjos>Delete</Mjos>
+			<MPartiels>Show partial points</MPartiels>
+		</MconfigContenu>
+		<Mhabillage>Habillage</Mhabillage>
+		<MhabillageContenu>
+					<MhabStyle>Style</MhabStyle>			
+				<MtypeHabMod>Modalities</MtypeHabMod>				
+				<MtypeHabGr>Groups</MtypeHabGr>
+				<MtypeHabInd>Individuals</MtypeHabInd>
+				<MtypeHabVar>Variables</MtypeHabVar>
+				<MtypeHabAxesPart>Partial axes</MtypeHabAxesPart>
+			<MhabCont>Quantitative values habillage</MhabCont>	
+			<MhabVTest>*Habillage par valeurs-test*</MhabVTest>	
+			<MhabNuage>Cloud</MhabNuage>
+			<MhabBulle>Bubbles</MhabBulle>
+			<Mnominale>Qualitative variable habillage</Mnominale>
+			<MhabZ>Quantitative variable habillage</MhabZ>
+			<MnoHabillage>No habillage</MnoHabillage>
+			<Mannotations>Show labels</Mannotations>
+			<McontribHabillage>
+				Contribution habillage
+			</McontribHabillage>
+			<MgroupeHabillage>Group habillage</MgroupeHabillage>
+			<Mcos2Habillage>Cos² habillage</Mcos2Habillage>
+		</MhabillageContenu>
+	</menu>
+	<toolbar>
+		<Mgrid>Show grid</Mgrid>
+		<Mdeselectionner>Unselect all</Mdeselectionner>
+		<MinverserSelection>Reverse selection</MinverserSelection>
+		<MselectListe>List selection</MselectListe>
+		<Mfantome>Ghost</Mfantome>
+	</toolbar>
+	<titre>
+		<Touvrir>Open</Touvrir>
+		<Tenregistrer>Save</Tenregistrer>
+		<Taxe>Update X/Y</Taxe>
+		<Select>
+			<Tselect>Select</Tselect>
+			<Lindiv>individuals</Lindiv>
+			<Lmod>modalities</Lmod>
+			<Lvar>variables</Lvar>
+			<Lgroupe>groups</Lgroupe>
+		</Select>
+		<Benregistrer>Save</Benregistrer>
+		<Bexporter>Export</Bexporter>
+		<Tproprietes>Properties</Tproprietes>
+	</titre>
+	<label>
+		<LaxeX>X axis</LaxeX>
+		<LaxeY>Y axis</LaxeY>
+		<Ltitre>Title</Ltitre>
+		<LMoinsLarge>Less wide</LMoinsLarge>
+		<LPlusLarge>Wider</LPlusLarge>
+		<LRapport>Proportions</LRapport>
+		<Lok>OK</Lok>
+		<Lannuler>Cancel</Lannuler>
+		<LaffInertieAxes>Display eigenvalues on axes</LaffInertieAxes>
+		<Ltypes>Types</Ltypes>
+		<Lsuivant>Next</Lsuivant>
+		<Lprecedent>Back</Lprecedent>
+		<Lquitter>Finish</Lquitter>
+		<LInvisible>Hidden</LInvisible>
+		<LVisible>Visible</LVisible>	
+		<LGrapheAFC>Correspondence Analysis graph</LGrapheAFC>	
+		<LDimension>Dimension</LDimension>
+		<Lorthonormer>Square the axes</Lorthonormer>
+		<LDescription>Description of </LDescription>
+		<LNominale>Qualitative</LNominale>
+		<LContinue>Quantitative</LContinue>
+		<LAffinageCos2>Cos² refining</LAffinageCos2>
+	</label>
+	<critere>
+		<Cactif>
+			<CactifMF>active</CactifMF>
+			<CactifF>active</CactifF>
+			<CactifM>active</CactifM>
+		</Cactif>
+		<Cillus>
+			<CillusMF>supplementary</CillusMF>
+			<CillusF>supplementary</CillusF>
+			<CillusM>supplementary</CillusM>
+		</Cillus>
+		<Cgeneration>generation</Cgeneration>
+		<CPositif>positif</CPositif>
+		<CNegatif>negatif</CNegatif>
+		<CdonneePartielle>partial data</CdonneePartielle>
+		<Ccontinue>quantitative variable</Ccontinue>
+		<CaxePart>partial axis</CaxePart>		
+		<Cgroupe>group</Cgroupe>
+		<Cindividu>individual</Cindividu>
+		<Cmodalite>category</Cmodalite>
+		<CmodaliteDe>category of</CmodaliteDe>
+		<Cnominale>has a value for the qualitative variable</Cnominale>
+		<Cdata>data</Cdata>
+		<CHabGroupe>group</CHabGroupe>
+		<Cappartient>belongs to</Cappartient>
+	</critere>
+	<langue>
+		<ou>or</ou>
+		<et>and</et>		
+	</langue>
+	<popup>
+		<Properties...>Properties...</Properties...>
+		<Save_as...>Save as...</Save_as...>
+		<Print...>Print...</Print...>
+		<Zoom_In>Zoom in</Zoom_In>
+		<Zoom_selon>
+			<All_Axes>All axes</All_Axes>
+			<Domain_Axis>X axis</Domain_Axis>
+			<Range_Axis>Y axis</Range_Axis>
+		</Zoom_selon>
+		<Zoom_Out>Zoom out</Zoom_Out>
+		<Auto_Range>Auto range</Auto_Range>
+		<Chart_Properties>Chart properties</Chart_Properties>
+	</popup>
+	<installer>
+		<titreInstall>installing dynGraph</titreInstall>
+		<pres1>
+			Welcome to the dynGraph installation
+		</pres1>
+		<pres2>
+			This setup program will install dynGraph on your computer.
+		</pres2>
+		<pres3>
+			Click Cancel if you do not want to install this application.
+		</pres3>
+		<pres4>
+			Click Next to continue the installation.
+		</pres4>
+		<choisirLangue>Choose your language</choisirLangue>
+		<choixRep1>
+			Setup will install dynGraph in the following folder.
+		</choixRep1>
+		<choixRep2>
+			If you want to install dynGraph into a different folder,
+		</choixRep2>
+		<choixRep3>clic Browse and select another folder</choixRep3>
+		<parcourir>Browse...</parcourir>
+		<installation>installing</installation>
+		<installationTerminee>
+			installation complete
+		</installationTerminee>
+		<annulerInstall>
+			Are you sure you want to abort the installation ?
+		</annulerInstall>
+		<oui>yes</oui>
+		<non>no</non>
+	</installer>
+	<formats>
+		<PNG_Image_Files>
+			PNG (Portable Network Graphics) (*.png)
+		</PNG_Image_Files>
+		<SVG_Image_Files>
+			SVG (Scalable Vector Graphics) (*.svg)
+		</SVG_Image_Files>
+		<SVG_Image_Files>
+			Format SVG (Scalable Vector Graphics) (*.svg)
+		</SVG_Image_Files>
+		<PDF_Image_Files>
+			PDF (Portable Document Format) (*.pdf)
+		</PDF_Image_Files>
+		<EMF_Image_Files>
+			EMF (Enhanced Metafile) (*.emf)
+		</EMF_Image_Files>
+		<Files>dynGraph Data File (*.ser)</Files>
+	</formats>
+	<err>
+		<erreur>error</erreur>
+		<data>no data</data>
+		<axesDifferents>Choose two different axes !</axesDifferents>
+		<version_fichier_incompatible>Incompatible file version</version_fichier_incompatible>		
+	</err>
+</dyn>

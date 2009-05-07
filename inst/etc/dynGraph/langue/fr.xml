@@ -1,0 +1,211 @@
+﻿<?xml version="1.0"?>
+<dyn>
+	<idlangue>fr</idlangue>
+	<!-- positions des adjectifs par rapport au nom -->
+	<adjectifs>apres</adjectifs>
+	<menu>
+		<Mfichier>Fichier</Mfichier>
+		<MfichierContenu>
+			<Mouvrir>Ouvrir...</Mouvrir>
+			<Mfermer>Fermer</Mfermer>
+			<Menregistrer>Enregistrer...</Menregistrer>
+			<Mexporter...>Exporter...</Mexporter...>
+			<Mlang>Langue</Mlang>
+			<Merror>Console</Merror>
+			<Mquitter>Quitter</Mquitter>
+		</MfichierContenu>
+		<Mgraphe>Graphe</Mgraphe>
+		<MconfigContenu>
+			<Maxe>Choisir les axes...</Maxe>
+			<MtypeID>Sélection</MtypeID>
+			<MtypeGR>Modifier le type du graphique</MtypeGR>
+			<MtypeGRContenu>
+				<MtypeGRGr>Graphe des groupes</MtypeGRGr>
+				<MtypeGRInd>Graphe des individus</MtypeGRInd>
+				<MtypeGRVar>Graphe des variables</MtypeGRVar>
+				<MtypeGRAxesPart>Graphe des axes partiels</MtypeGRAxesPart>
+				<MtypeGRAxesDataframe>Dataframe</MtypeGRAxesDataframe>				
+			</MtypeGRContenu>
+			<Mlegende>Afficher la légende</Mlegende>
+			<Millus>Afficher les données illustratives</Millus>
+			<Mmod>Afficher les modalites</Mmod>
+			<MmodContenu>
+				<MmodToutes>toutes</MmodToutes>
+				<MmodAucune>aucune</MmodAucune>
+			</MmodContenu>
+			<MPartiels>Afficher les points partiels</MPartiels>
+		</MconfigContenu>
+		<Mhabillage>Habillage</Mhabillage>
+		<MhabillageContenu>
+					<MhabStyle>Style</MhabStyle>	
+				<MtypeHabMod>Modalités</MtypeHabMod>		
+				<MtypeHabGr>Groupes</MtypeHabGr>
+				<MtypeHabInd>Individus</MtypeHabInd>
+				<MtypeHabVar>Variables</MtypeHabVar>
+				<MtypeHabAxesPart>Axes partiels</MtypeHabAxesPart>
+			<MhabCont>Habillage par valeurs continues</MhabCont>	
+			<MhabVTest>Habillage par valeurs-test</MhabVTest>	
+			<MhabNuage>Nuage</MhabNuage>
+			<MhabBulle>Bulle</MhabBulle>				
+			<Mnominale>Habillage par variable qualitative</Mnominale>
+			<MhabZ>Habillage par continue</MhabZ>
+			<MnoHabillage>Aucun habillage</MnoHabillage>
+			<McontribHabillage>
+				Habillage par contribution
+			</McontribHabillage>
+			<MgroupeHabillage>Habillage par groupe</MgroupeHabillage>
+			<Mcos2Habillage>Habillage par cos²</Mcos2Habillage>
+			<Mannotations>Afficher les annotations</Mannotations>
+		</MhabillageContenu>
+	</menu>
+	<toolbar>
+		<Mgrid>Afficher les graduations</Mgrid>
+		<Mdeselectionner>Désélectionner tout</Mdeselectionner>
+		<MinverserSelection>Inverser la sélection</MinverserSelection>
+		<MselectListe>Sélectionner par liste</MselectListe>
+		<Mfantome>Fantôme</Mfantome>
+	</toolbar>
+	<titre>
+		<Touvrir>Ouvrir</Touvrir>
+		<Tenregistrer>Enregistrer</Tenregistrer>
+		<Taxe>Choix des </Taxe>
+		<Select>
+			<Tselect>Sélection</Tselect>
+			<Lindiv>individus</Lindiv>
+			<Lmod>modalités</Lmod>
+			<Lvar>variables</Lvar>
+			<Lgroupe>groupes</Lgroupe>
+		</Select>
+		<enregistrer-exporter>
+			<Benregistrer>Enregistrer</Benregistrer>
+			<Bexporter>Exporter</Bexporter>
+		</enregistrer-exporter>
+		<Tproprietes>Propriétés</Tproprietes>
+	</titre>
+	<label>
+		<LaxeX>Axe X</LaxeX>
+		<LaxeY>Axe Y</LaxeY>
+		<Ltitre>Titre</Ltitre>
+		<LMoinsLarge>Moins large</LMoinsLarge>
+		<LPlusLarge>Plus large</LPlusLarge>
+		<LRapport>Proportions</LRapport>
+		<Lok>OK</Lok>
+		<Lannuler>Annuler</Lannuler>
+		<LaffInertieAxes>Afficher l'inertie sur les  axes</LaffInertieAxes>
+		<Ltypes>Types</Ltypes>
+		<Lsuivant>Suivant</Lsuivant>
+		<Lprecedent>Précédent</Lprecedent>
+		<Lquitter>Quitter</Lquitter>
+		<LInvisible>Masqué(e)</LInvisible>
+		<LVisible>Visible</LVisible>	
+		<LGrapheAFC>Graphe de l'AFC</LGrapheAFC>
+		<LDimension>Dimension</LDimension>		
+		<Lorthonormer>Orthonormer les axes</Lorthonormer>	
+		<LDescription>Description de </LDescription>		
+		<LNominale>Nominale</LNominale>
+		<LContinue>Continue</LContinue>	
+		<LAffinageCos2>Affinage par Cos²</LAffinageCos2>		
+	</label>
+	<critere>
+		<Cactif>
+			<CactifMF>actif(ve)</CactifMF>
+			<CactifM>actif</CactifM>
+			<CactifF>active</CactifF>
+		</Cactif>
+		<Cillus>
+			<CillusMF>illustratif(ve)</CillusMF>
+			<CillusF>illustrative</CillusF>
+			<CillusM>illustratif</CillusM>
+		</Cillus>
+		<CPositif>positive</CPositif>
+		<CNegatif>negative</CNegatif>
+		<Cgeneration>de génération</Cgeneration>
+		<CdonneePartielle>donnée partielle</CdonneePartielle>
+		<Ccontinue>continue</Ccontinue>
+		<CaxePart>axe partiel</CaxePart>
+		<Cgroupe>groupe</Cgroupe>
+		<Cindividu>individu</Cindividu>
+		<Cmodalite>modalité</Cmodalite>
+		<CmodaliteDe>modalité de</CmodaliteDe>
+		<Cnominale>a une valeur pour la nominale</Cnominale>
+		<Cdata>donnée</Cdata>
+		<CHabGroupe>groupe</CHabGroupe>
+		<Cappartient>appartient à</Cappartient>
+	</critere>
+	<langue>
+		<ou>ou</ou>
+		<et>et</et>
+	</langue>
+	<popup>
+		<Properties...>Propriétés...</Properties...>
+		<Save_as...>Enregistrer sous...</Save_as...>
+		<Print...>Imprimer...</Print...>
+		<Zoom_In>Zoom avant</Zoom_In>
+		<Zoom_selon>
+			<All_>Les deux </All_>
+			<Domain_Axis>Axe horizontal</Domain_Axis>
+			<Range_Axis>Axe vertical</Range_Axis>
+		</Zoom_selon>
+		<Zoom_Out>Zoom arrière</Zoom_Out>
+		<Auto_Range>Echelle automatique</Auto_Range>
+		<Chart_Properties>Propriétés du graphique</Chart_Properties>
+	</popup>
+	<installer>
+		<titreInstall>installation de dynGraph</titreInstall>
+		<pres1>
+			Bienvenue dans le programme d'installation de dynGraph
+		</pres1>
+		<pres2>
+			Ce programme va installer dynGraph sur votre ordinateur.
+		</pres2>
+		<pres3>
+			Cliquez sur Annuler si vous ne voulez pas installer cette
+			application.
+		</pres3>
+		<pres4>
+			Cliquez sur Suivant pour continuer l'installation.
+		</pres4>
+		<choisirLangue>Choisissez votre langue</choisirLangue>
+		<choixRep1>
+			dynGraph sera installé dans le répertoire suivant.
+		</choixRep1>
+		<choixRep2>
+			Si vous souhaitez installer dynGraph dans un répertoire
+			différent,
+		</choixRep2>
+		<choixRep3>
+			cliquez sur parcourir et choisissez un autre répertoire
+		</choixRep3>
+		<parcourir>Parcourir...</parcourir>
+		<installation>installation en cours</installation>
+		<installationTerminee>
+			installation terminée
+		</installationTerminee>
+		<annulerInstall>
+			Etes-vous sûr de vouloir arrêter l'installation ?
+		</annulerInstall>
+		<oui>oui</oui>
+		<non>non</non>
+	</installer>
+	<formats>
+		<PNG_Image_Files>
+			PNG (Portable Network Graphics) (*.png)
+		</PNG_Image_Files>
+		<SVG_Image_Files>
+			SVG (Scalable Vector Graphics) (*.svg)
+		</SVG_Image_Files>
+		<PDF_Image_Files>
+			PDF (Portable Document Format) (*.pdf)
+		</PDF_Image_Files>
+		<EMF_Image_Files>
+			EMF (Enhanced Metafile) (*.emf)
+		</EMF_Image_Files>
+		<Files>Fichier de données dynGraph (*.ser)</Files>
+	</formats>
+	<err>
+		<erreur>erreur</erreur>
+		<data>pas de données</data>
+		<Differents>Choisir deux  différents !</Differents>
+		<version_fichier_incompatible>Version du fichier incompatible</version_fichier_incompatible>
+		</err>
+</dyn>
