@@ -13,7 +13,7 @@ dynGraph(res)
 \arguments{
   \item{res}{\code{res} can be either a dataframe or results provided by a PCA, CA, MCA, MFA with the FactoMineR package}
 }
-\author{Julien Durand and Sebastien Le }
+\author{Sebastien Le and Julien Durand}
 
 \examples{
 library(FactoMineR)

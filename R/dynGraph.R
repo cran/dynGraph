@@ -941,8 +941,8 @@ dynGraph <- function(res) {
 	# variables continues moyennes (pas de partielles en ACP, AFM, ACM)
 	####################################################################
 	
-	norme = res$call$scale.unit#les variables sont elles normÃ©es ?
-	if(is(norme,'NULL') || (mfa || afdm)){norme=TRUE}#norme Ã  vrai si on n'a pas trouvÃ© l'info ou si l'on est en AFM ou AFDM
+	norme = res$call$scale.unit #les variables sont elles norm�es ?
+	if(is(norme,'NULL') || (mfa || afdm)){norme=TRUE}#norme prend�vrai si on n'a pas trouv� l'info ou si l'on est en AFM ou AFDM
 	
 	if(pca){			
 		listeContAct=res$var
@@ -1115,7 +1115,10 @@ dynGraph <- function(res) {
 		for (i in 1:ncol(Axedesc)){
 			tablo=cbind.data.frame(Axedesc[,i],res$call$X)
 			Xdesc=condes(tablo,1,proba=1)		
-		 	if(!is.null(Xdesc$quanti)){
+			if(ca){
+				Xdesc$category=Xdesc$quanti
+			}
+		 	if(!is.null(Xdesc$quanti) && !ca){
 		    	for (j in 1:NROW(Xdesc$quanti)){
 		           .jcall(obj,, "add_description_dim_par_cont",	i, rownames(Xdesc$quanti)[j], Xdesc$quanti[j,2]*sign(Xdesc$quanti[j,1]))
 		       }
